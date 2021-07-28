@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "946545262877",
+    "project_id": "sanchez-cristian",
+    "storage_bucket": "sanchez-cristian.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946545262877:android:c8203163c930b106a0e1f4",
+        "android_client_info": {
+          "package_name": "com.example.app_logueo_meditacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946545262877-49os8va8bsd06d86ngnm7f0569tca42r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_logueo_meditacion",
+            "certificate_hash": "4c8afab2c342633cb9639d1992b900fe4ec9c341"
+          }
+        },
+        {
+          "client_id": "946545262877-p0mqso55f42lksfi5h1ac09n45hmsnss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCana_7fqFTE0OSQ_XnTWmcZ8Kz2MLQzd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946545262877-p0mqso55f42lksfi5h1ac09n45hmsnss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
