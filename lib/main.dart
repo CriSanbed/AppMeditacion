@@ -3,6 +3,7 @@ import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 import 'package:app_logueo_meditacion/User/BLOC/bloc_user.dart';
 import 'package:app_logueo_meditacion/User/UI/Screen/welcome.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:app_logueo_meditacion/User/UI/Screen/relax.dart';
 
 Future<void> main() async {
   //usando firebase_core

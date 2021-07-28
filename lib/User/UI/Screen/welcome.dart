@@ -55,7 +55,6 @@ class Welcome extends StatelessWidget {
               image: DecorationImage(
                   fit: BoxFit.scaleDown,
                   image: AssetImage("assets/img/meditacion1.jpg")),
-              //borderRadius: BorderRadius.all(Radius.circular(90.0)),
               shape: BoxShape.circle),
         ),
 
