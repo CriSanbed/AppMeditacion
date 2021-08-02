@@ -1,4 +1,5 @@
 import 'package:app_logueo_meditacion/User/UI/Widgets/gradiente.dart';
+import 'package:app_logueo_meditacion/User/UI/Widgets/iconos_pie.dart';
 import 'package:flutter/material.dart';
 
 //CREANDO CLASE PRINCIPAL
@@ -83,34 +84,8 @@ class Relax extends StatelessWidget {
                           ),
                         ),
 
-                        //CONTAINER PARA LOS ICONOS
-                        Container(
-                          margin: const EdgeInsets.only(top: 5.0),
-                          height: 250.0,
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            children: <Widget>[
-                              IconButton(
-                                icon: const Icon(Icons.assignment_returned),
-                                color: Colors.black54,
-                                iconSize: 35.0,
-                                onPressed: () {},
-                              ),
-                              IconButton(
-                                icon: const Icon(Icons.emoji_emotions),
-                                color: Colors.black54,
-                                iconSize: 35.0,
-                                onPressed: () {},
-                              ),
-                              IconButton(
-                                icon: const Icon(Icons.where_to_vote_outlined),
-                                color: Colors.black54,
-                                iconSize: 35.0,
-                                onPressed: () {},
-                              ),
-                            ],
-                          ),
-                        )
+                        //LLAMO AL WIDGETS que contiene los ICONOS
+                        IconosPie(),
                       ],
                     ),
                   ),
